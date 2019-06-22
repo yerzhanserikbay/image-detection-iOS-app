@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <Vision/Vision.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor blackColor];
+    
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Hello" message:@"Welcome to Open CV" delegate:self cancelButtonTitle:@"Continue" otherButtonTitles:nil];
+    
+    [alert show];
 }
 
 

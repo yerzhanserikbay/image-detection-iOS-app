@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5A123E4722BCCA3E00AA1CDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A123E4622BCCA3E00AA1CDC /* AppDelegate.m */; };
-		5A123E4A22BCCA3E00AA1CDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A123E4922BCCA3E00AA1CDC /* ViewController.m */; };
+		5A123E4A22BCCA3E00AA1CDC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5A123E4922BCCA3E00AA1CDC /* ViewController.mm */; };
 		5A123E4D22BCCA3E00AA1CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A123E4B22BCCA3E00AA1CDC /* Main.storyboard */; };
 		5A123E5022BCCA3E00AA1CDC /* image_detection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A123E4E22BCCA3E00AA1CDC /* image_detection.xcdatamodeld */; };
 		5A123E5222BCCA3F00AA1CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A123E5122BCCA3F00AA1CDC /* Assets.xcassets */; };
@@ -16,6 +16,7 @@
 		5A123E5822BCCA3F00AA1CDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A123E5722BCCA3F00AA1CDC /* main.m */; };
 		5A123E6222BCCA3F00AA1CDC /* image_detectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A123E6122BCCA3F00AA1CDC /* image_detectionTests.m */; };
 		5A123E6D22BCCA3F00AA1CDC /* image_detectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A123E6C22BCCA3F00AA1CDC /* image_detectionUITests.m */; };
+		5A123E8822BE212B00AA1CDC /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A123E8422BE14AA00AA1CDC /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +41,7 @@
 		5A123E4522BCCA3E00AA1CDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A123E4622BCCA3E00AA1CDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5A123E4822BCCA3E00AA1CDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5A123E4922BCCA3E00AA1CDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A123E4922BCCA3E00AA1CDC /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		5A123E4C22BCCA3E00AA1CDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A123E4F22BCCA3E00AA1CDC /* image_detection.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = image_detection.xcdatamodel; sourceTree = "<group>"; };
 		5A123E5122BCCA3F00AA1CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +54,8 @@
 		5A123E6822BCCA3F00AA1CDC /* image-detectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "image-detectionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A123E6C22BCCA3F00AA1CDC /* image_detectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = image_detectionUITests.m; sourceTree = "<group>"; };
 		5A123E6E22BCCA3F00AA1CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A123E8322BE0C1800AA1CDC /* image-detection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "image-detection-Prefix.pch"; sourceTree = "<group>"; };
+		5A123E8422BE14AA00AA1CDC /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A123E8822BE212B00AA1CDC /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +91,7 @@
 				5A123E6022BCCA3F00AA1CDC /* image-detectionTests */,
 				5A123E6B22BCCA3F00AA1CDC /* image-detectionUITests */,
 				5A123E4322BCCA3E00AA1CDC /* Products */,
+				5A123E7A22BE0BA200AA1CDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,13 +111,10 @@
 				5A123E4522BCCA3E00AA1CDC /* AppDelegate.h */,
 				5A123E4622BCCA3E00AA1CDC /* AppDelegate.m */,
 				5A123E4822BCCA3E00AA1CDC /* ViewController.h */,
-				5A123E4922BCCA3E00AA1CDC /* ViewController.m */,
-				5A123E4B22BCCA3E00AA1CDC /* Main.storyboard */,
-				5A123E5122BCCA3F00AA1CDC /* Assets.xcassets */,
-				5A123E5322BCCA3F00AA1CDC /* LaunchScreen.storyboard */,
+				5A123E4922BCCA3E00AA1CDC /* ViewController.mm */,
+				5A123E8322BE0C1800AA1CDC /* image-detection-Prefix.pch */,
 				5A123E5622BCCA3F00AA1CDC /* Info.plist */,
-				5A123E5722BCCA3F00AA1CDC /* main.m */,
-				5A123E4E22BCCA3E00AA1CDC /* image_detection.xcdatamodeld */,
+				5A123E8922BE217A00AA1CDC /* Supporting Files */,
 			);
 			path = "image-detection";
 			sourceTree = "<group>";
@@ -133,6 +135,26 @@
 				5A123E6E22BCCA3F00AA1CDC /* Info.plist */,
 			);
 			path = "image-detectionUITests";
+			sourceTree = "<group>";
+		};
+		5A123E7A22BE0BA200AA1CDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A123E8422BE14AA00AA1CDC /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A123E8922BE217A00AA1CDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A123E4B22BCCA3E00AA1CDC /* Main.storyboard */,
+				5A123E5122BCCA3F00AA1CDC /* Assets.xcassets */,
+				5A123E5322BCCA3F00AA1CDC /* LaunchScreen.storyboard */,
+				5A123E5722BCCA3F00AA1CDC /* main.m */,
+				5A123E4E22BCCA3E00AA1CDC /* image_detection.xcdatamodeld */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A123E4A22BCCA3E00AA1CDC /* ViewController.m in Sources */,
+				5A123E4A22BCCA3E00AA1CDC /* ViewController.mm in Sources */,
 				5A123E5022BCCA3E00AA1CDC /* image_detection.xcdatamodeld in Sources */,
 				5A123E5822BCCA3F00AA1CDC /* main.m in Sources */,
 				5A123E4722BCCA3E00AA1CDC /* AppDelegate.m in Sources */,
@@ -441,6 +463,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N49T88F69F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/image-detection/image-detection-Prefix.pch";
 				INFOPLIST_FILE = "image-detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +485,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N49T88F69F;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/image-detection/image-detection-Prefix.pch";
 				INFOPLIST_FILE = "image-detection/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

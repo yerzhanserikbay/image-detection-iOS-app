@@ -2,11 +2,11 @@
 
 ## Useful links 
 
-- https://github.com/opencv/opencv_for_ios_book_samples
+- [Opencv For iOS Book Samples](https://github.com/opencv/opencv_for_ios_book_samples)
 
-- https://medium.com/ios-os-x-development/the-fd4fcb249358
+- [Medium.com](https://medium.com/ios-os-x-development/the-fd4fcb249358)
 
-- https://www.objc.io/issues/21-camera-and-photos/face-recognition-with-opencv/
+- [Objc.io](https://www.objc.io/issues/21-camera-and-photos/face-recognition-with-opencv/)
 
 
 ## Support

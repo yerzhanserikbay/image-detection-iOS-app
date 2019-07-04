@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A023FC122CCBB2D00B68686 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FC022CCBB2D00B68686 /* Accelerate.framework */; };
+		5A023FC322CCBB3600B68686 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FC222CCBB3600B68686 /* AssetsLibrary.framework */; };
+		5A023FC522CCBB4100B68686 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FC422CCBB4100B68686 /* AVFoundation.framework */; };
+		5A023FC722CCBB4900B68686 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FC622CCBB4900B68686 /* CoreGraphics.framework */; };
+		5A023FC922CCBB5400B68686 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FC822CCBB5400B68686 /* CoreImage.framework */; };
+		5A023FCB22CCBB5D00B68686 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FCA22CCBB5D00B68686 /* CoreMedia.framework */; };
+		5A023FCD22CCBB6600B68686 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FCC22CCBB6600B68686 /* CoreVideo.framework */; };
+		5A023FCF22CCBB6F00B68686 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FCE22CCBB6F00B68686 /* QuartzCore.framework */; };
+		5A023FD122CCBB8100B68686 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FD022CCBB8100B68686 /* UIKit.framework */; };
+		5A023FD322CCBB8800B68686 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A023FD222CCBB8800B68686 /* Foundation.framework */; };
 		5A123E4722BCCA3E00AA1CDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A123E4622BCCA3E00AA1CDC /* AppDelegate.m */; };
 		5A123E4A22BCCA3E00AA1CDC /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5A123E4922BCCA3E00AA1CDC /* ViewController.mm */; };
 		5A123E4D22BCCA3E00AA1CDC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A123E4B22BCCA3E00AA1CDC /* Main.storyboard */; };
@@ -37,6 +47,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A023FC022CCBB2D00B68686 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		5A023FC222CCBB3600B68686 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5A023FC422CCBB4100B68686 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5A023FC622CCBB4900B68686 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5A023FC822CCBB5400B68686 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		5A023FCA22CCBB5D00B68686 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5A023FCC22CCBB6600B68686 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		5A023FCE22CCBB6F00B68686 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5A023FD022CCBB8100B68686 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5A023FD222CCBB8800B68686 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A123E4222BCCA3E00AA1CDC /* image-detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "image-detection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A123E4522BCCA3E00AA1CDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5A123E4622BCCA3E00AA1CDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +83,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A023FD322CCBB8800B68686 /* Foundation.framework in Frameworks */,
+				5A023FD122CCBB8100B68686 /* UIKit.framework in Frameworks */,
+				5A023FCF22CCBB6F00B68686 /* QuartzCore.framework in Frameworks */,
+				5A023FCD22CCBB6600B68686 /* CoreVideo.framework in Frameworks */,
+				5A023FCB22CCBB5D00B68686 /* CoreMedia.framework in Frameworks */,
+				5A023FC922CCBB5400B68686 /* CoreImage.framework in Frameworks */,
+				5A023FC722CCBB4900B68686 /* CoreGraphics.framework in Frameworks */,
+				5A023FC522CCBB4100B68686 /* AVFoundation.framework in Frameworks */,
+				5A023FC322CCBB3600B68686 /* AssetsLibrary.framework in Frameworks */,
+				5A023FC122CCBB2D00B68686 /* Accelerate.framework in Frameworks */,
 				5A123E8822BE212B00AA1CDC /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +170,16 @@
 		5A123E7A22BE0BA200AA1CDC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A023FD222CCBB8800B68686 /* Foundation.framework */,
+				5A023FD022CCBB8100B68686 /* UIKit.framework */,
+				5A023FCE22CCBB6F00B68686 /* QuartzCore.framework */,
+				5A023FCC22CCBB6600B68686 /* CoreVideo.framework */,
+				5A023FCA22CCBB5D00B68686 /* CoreMedia.framework */,
+				5A023FC822CCBB5400B68686 /* CoreImage.framework */,
+				5A023FC622CCBB4900B68686 /* CoreGraphics.framework */,
+				5A023FC422CCBB4100B68686 /* AVFoundation.framework */,
+				5A023FC222CCBB3600B68686 /* AssetsLibrary.framework */,
+				5A023FC022CCBB2D00B68686 /* Accelerate.framework */,
 				5A123E8422BE14AA00AA1CDC /* opencv2.framework */,
 			);
 			name = Frameworks;
